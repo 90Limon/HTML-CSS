@@ -5,6 +5,7 @@ h1{
     font-weight:500 ;
     font-size:50px ;
     text-shadow:-4px 3px 2px grey;
+    text-decoration: orange line-through  ;
 }
 body{
     background-color:beige;
@@ -13,4 +14,11 @@ a{
     font-size:20px;
     font-weight:200;
     color:brown;
-}a
+}
+
+.cl{
+    color:rgb(38, 94, 5);
+}
+#cast{
+    list-style-type: circle;
+}
