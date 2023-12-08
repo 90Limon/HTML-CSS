@@ -29,17 +29,17 @@ body{
     font-family:sans-serif;
   }
   h1{
-    font-weight:light;
+    font-weight:lighter;
     text-align:center;
     font-size:40px;
   }
-  p{font-size:24px
+  p{font-size:24px;
   }
   #leafy{ color:#1d6e09;
-    font-style:#1d6e09 underline;
+    text-decoration:underline;
     }
   .latin{
-    font-family:italian;
+    font-family:italic;
   }
   h2{
    text-transform:uppercase;
@@ -50,7 +50,7 @@ body{
   }
   a:hover {
     color: red;
-    text-decoration:underline
+    text-decoration:underline;
   }
   ul{
     list-style-type:square;
