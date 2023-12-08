@@ -30,12 +30,12 @@ body{
   }
   h1{
     font-weight:light;
-    alinght:center;
+    text-align:center;
     font-size:40px;
   }
   p{font-size:24px
   }
-  #leafy{ color:1d6e09;
+  #leafy{ color:#1d6e09;
     font-style:#1d6e09 underline;
     }
   .latin{
@@ -53,6 +53,6 @@ body{
     text-decoration:underline
   }
   ul{
-    list-style-type:squares;
+    list-style-type:square;
   }
   
