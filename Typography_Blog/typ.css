@@ -1,0 +1,51 @@
+body{
+    font-family:bitter ,sans-serif;
+    font-size: 16px;
+    margin:0;
+    padding:0;
+}
+h1,h2{
+    font-family: mukta,serif;
+}
+h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+.date{
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+ .date span{
+    color:orange;
+}
+.hline{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin:40px 0;
+
+}
+.hline span{
+    color: orangered;
+}
+
+.quote {
+    font-style:italic;
+    font-size: 14px;
+    border-left: 2px solid #e95400;
+    padding-left: 16px;
+    margin:32px 0 32px 32px;
+}
+.quote cite {
+    display: block;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.content{
+    max-width: 900px;
+    margin:0 auto;
+    padding: 32px;
+}
