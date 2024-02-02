@@ -1,0 +1,179 @@
+body {
+    background-color: rgb(233,223,255);
+    font-family: 'open sans',sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding:32px;
+    color:rgb(44,44,44);
+}
+
+h1{
+    color:rgb(83,49,156);
+}
+.conteiner{
+    background-color: white;
+    width:100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 20px;
+    padding: 0 64px 64px 64px;
+    position: relative;
+
+}
+.tabs{
+    display: flex;
+    text-transform: uppercase;
+    color: rgb(200,175,255);
+    width: 100%;
+    justify-content: space-around;
+    font-weight: bold;
+    margin:0 0 32px 0;
+    padding: 16px;
+}
+.tabs p{
+    padding:8px;
+
+}
+.tabs p:hover{
+    color: rgb(83,49,156);
+    cursor: pointer;
+    
+}
+.tabs p.activ{
+    color: rgb(83,49,156);
+    position: relative;
+}
+.line{
+    height: 3px;
+    background-color: rgb(231,231,231);
+    width: 100%;
+    position: absolute;
+    top:98px;
+
+}
+.tabs .activ::before{
+    content: "";
+    width: 200%;
+    height: 4px;
+    background-color: rgb(83,49,156);
+    position: absolute;
+    bottom: -32px;
+    z-index: 2;
+    left: -50%;
+    border-radius: 10px;
+}
+.tabs2{
+    display: flex;
+
+}
+.tabs2 img{
+    height: 40px;
+    margin: 0 16px;
+}
+.toggle{
+    background-color: rgb(83,49,156);
+    height: 32px;
+    width: 140px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 4px 0 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.toggle span:first-of-type{
+    color:white;
+}
+.toggle span:last-of-type{
+    background-color: white;
+    border-radius: 20px;
+    padding: 4px 16px;
+}
+.card{
+    background-color: rgb(250,247,255);
+    text-align: center;
+    padding: 23px;
+    border-radius: 10px;
+    width: 50%;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+.card p{
+    color:rgb(44,44,44);
+    font-size: 12px;
+    font-weight:bold;
+    margin:16px 0 0 0;
+}
+.card .number{
+    color:rgb(83,49,156);
+    font-size: 54px;
+    margin:0;
+}
+.description{
+    line-height:32px;
+    margin:16px 0 32px 0;
+}
+.slider{
+    width:100%;
+    position: relative;
+   
+}
+.slider .bar {
+    width: 100%;
+    height: 16px;
+    background-color: rgb(248,248,248);
+    border-radius: 20px;
+    border: 1px solid rgb(210,210,210);
+}
+.slider .progres{
+    width: 31%;
+    height:18px;
+    background: linear-gradient(90deg,
+    rgba(2,0,36,1)0%,
+    rgba(53,10,74,1)36%,
+    rgba(83,49,156,1)100%);
+    border-radius: 20px;
+position: absolute;
+top: 0;
+left: 0;
+
+}
+.slider .point{
+    width: 22px;
+    height:22px;
+    background-color: rgb(83,49,156);
+    border-radius: 50%;
+    border:3px solid white;
+    position:absolute;
+    top:-5px;
+    left:30%;
+    transition: 0.15s transform ease ;
+}
+.slider .point:hover{
+    cursor:pointer;
+    transform: scale(1.15);
+}
+.scale{
+    width: 100%;
+    
+}
+.slider .scale ul{
+   list-style: none;
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+padding: 0;
+font-weight: bold;
+color:rgb(166,166,166)
+
+}
